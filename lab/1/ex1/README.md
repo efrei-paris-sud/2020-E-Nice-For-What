@@ -1,27 +1,39 @@
 
+# Step 1 : Turning on/off an LED 
 
-# Exercise 1 
-A breif description of the goal of this exercise.
+To get started with the materials we worked with a breadboard. The objective here is to turn on an LED with a battery. So, we realize this figure shown below : 
 
-## Schematic 
-![Test Image](photo.png?raw=true)
+![](Step1.png)
 
-## Code
- ```Arduino
-void setup(){
-  ....
-}
+Here is the representation of the schema above : 
 
-void loop(){
-  ....
-}
-```
-  
-## Board Image
-![Board](Arduino_LED.gif?raw=true)
+![](step1-irl.JPG)
 
-To make a gif you can use [ezgif](https://ezgif.com/maker).
-## Issues
-- bla bla
-- bla bla
-- bla bla
+Unfortunately we did not have the proper battery to test it out. So we moved on the step number 2.
+
+# Step 2 : Turning on/off an LED with a micro-controller
+
+Same goal as step 1 but this time with a micro-controller. In this lab we use an Arduino UNO development board.
+To turn on an LED, we realise the following figure :
+
+## Schematic
+![](step2.PNG)
+
+<br>
+
+# **Exercise 1** : Test your LED by connecting the orange wire to the red bus (VCC)
+
+Modelisation of the figure during the first lab session
+
+## Board Image 
+
+![](step2_irl.jpg)
+
+As you can see, the LED is on.
+<br>
+
+## Step 3 : Upload a program to the Arduino
+
+We downloaded Arduino IDE.
+
+

@@ -1,27 +1,10 @@
 
 
-# Exercise 2 
-A breif description of the goal of this exercise.
+## **Exercise 2**
 
-## Schematic 
-![Test Image](photo.png?raw=true)
 
-## Code
- ```Arduino
-void setup(){
-  ....
-}
+## Schematic
+![](lab2-ex2.png)
+<br>
 
-void loop(){
-  ....
-}
-```
-  
-## Board Image
-![Board](Arduino_LED.gif?raw=true)
-
-To make a gif you can use [ezgif](https://ezgif.com/maker).
-## Issues
-- bla bla
-- bla bla
-- bla bla
+The I2C pins (SDA and SCL) are on the bottom-left of the schema.
