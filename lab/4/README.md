@@ -7,12 +7,17 @@ The fourth lab of Internet of Things was about discovering a new component : ESP
 
 
   
-## Exercises
+## Exercises :
+
   - [Exercise 1](ex1)
   - [Exercise 2](ex2)
   - [Exercise 3](ex3)
   
 <br>
+
+# Issue : 
+
+In this lab, our main issue was the last part with sending data over Thingspeak software. In fact, our board implementation was the wrong one. That's why it took us a long time to find our mistake.
 
 # Conclusion
 

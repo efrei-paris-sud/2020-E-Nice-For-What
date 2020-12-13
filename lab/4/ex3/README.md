@@ -1,6 +1,9 @@
-# Step 5 : Thingspeak plateform
+# Step 5 : Thingspeak platform
 
 Thingspeak is a web service to record data, over the internet. 
+ 
+![](thingspeak-platform-min.png)
+
 
 <br>
 
@@ -8,7 +11,7 @@ Thingspeak is a web service to record data, over the internet.
 
 To realize this exercise, we will need the build circuit of the step 6 in the Lab 1. 
 
-Remember, the goal was to read an analogue value using a potentiometer, of an Arduino board. 
+Remember, the goal was to **read an analogue value** using a **potentiometer**, of an Arduino board. 
 
 We will use the following schematic : 
 
@@ -18,7 +21,7 @@ We will use the following schematic :
 
 ![](step5.png)
 
-The objectif here is to send its data to thingspeak dashboard. Data will be exchanged using ESP32 and its wifi functionality.
+The objectif here is to send its data to thingspeak dashboard. Data will be exchanged using **ESP32** and its **wifi** functionality.
 
 To do so, we must create an account and a private channel in ThingSpeak. From there, we were able to recover our channel number and channel API Key.
 
@@ -97,6 +100,10 @@ void loop() {
 }
 
 ``` 
+
+<br>
+
+
 - Secrets.h code 
 
 In this part of the code, we will replace the name of our WiFi networ and its password. We will define our channel number and API Key. 
@@ -114,14 +121,35 @@ secrets.h
 ## **Board Image**
 <br>
 
-![](step5-irl.jpg)
+![](step5-photo.jpg)
+<br>
+
+<br>
+
+## **Dashboard Image** 
+<br>
+
+1. At the first time, our curve was only increasing and when we tried to bring it down by turning the potentiometer, the curve didn't move.
+When we reset the esp32, the value decrease automatically as you can see on the picture.
+
+![](dashboard-min.png)
+
+<br>
 
 
-## **Dashboard Image**
+2. Then, we thought that it was a problem with the connections. So we change some wires position
 
-At the first time,
+![](dashboard-2-min.png)
 
-![](dashboard.png)
+<br>
+
+
+3. Finally we found our mistake and get the right implementation. The value on the curve varies as required whether our potentiometer is turning or not.
+
+![](thingspeak-image-min.png)
+
+
+## **Exercise Conclusion**
 
 The aim of the exercise is to use the potentiometer by turning it and changing its values.
 The value will be retrieved in the ThingSpeak graph as we can see in avobe.
