@@ -11,7 +11,7 @@ Here is a picture of the ESP32 component
 
 ![](esp32-photo.jpg)
 
-# Step 3 : Upload bliking LED code
+# Step 3 : Upload blinking LED code
 
 In this exercise, we want to use the schematic we saw in the Lab 1 to blink a LED but instead of using Arduino Uno, we will use ESP32. 
 

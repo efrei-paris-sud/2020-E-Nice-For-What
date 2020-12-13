@@ -1,4 +1,4 @@
-# Step 4 : Display "Hello Word"
+# Step 4 : Display "Hello World"
 
 ## **Exercice 2 :**
 

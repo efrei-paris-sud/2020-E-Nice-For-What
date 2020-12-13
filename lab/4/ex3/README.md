@@ -60,44 +60,26 @@ const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
 int number = 0;
 
 void setup() {
-  Serial.begin(115200);  //Initialize serial
+ Serial.begin(115200);  //Initialize serial
 
-  WiFi.mode(WIFI_STA);
-  ThingSpeak.begin(client);  // Initialize ThingSpeak
+ WiFi.mode(WIFI_STA);
+ ThingSpeak.begin(client);  // Initialize ThingSpeak
 }
+int Pin = 39;
 
 void loop() {
 
-  // Connect or reconnect to WiFi
-  if(WiFi.status() != WL_CONNECTED){
-    Serial.print("Attempting to connect to SSID: ");
-    Serial.println(SECRET_SSID);
-    while(WiFi.status() != WL_CONNECTED){
-      WiFi.begin(ssid, pass); // Connect to WPA/WPA2 network. Change this line if using open or WEP network
-      Serial.print(".");
-      delay(5000);
-    } 
-    Serial.println("\nConnected.");
-  }
-
-  // Write to ThingSpeak. There are up to 8 fields in a channel, allowing you to store up to 8 different
-  // pieces of information in a channel.  Here, we write to field 1.
-  int x = ThingSpeak.writeField(myChannelNumber, 1, number, myWriteAPIKey);
-  if(x == 200){
-    Serial.println("Channel update successful.");
-  }
-  else{
-    Serial.println("Problem updating channel. HTTP error code " + String(x));
-  }
-
-  // change the value
-  number++;
-  if(number > 99){
-    number = 0;
-  }
-
-  delay(20000); // Wait 20 seconds to update the channel again
-}
+ // Connect or reconnect to WiFi
+ if(WiFi.status() != WL_CONNECTED){
+   Serial.print("Attempting to connect to SSID: ");
+   Serial.println(SECRET_SSID);
+   while(WiFi.status() != WL_CONNECTED){
+     WiFi.begin(ssid, pass); // Connect to WPA/WPA2 network. Change this line if using open or WEP network
+     Serial.print(".");
+     delay(5000);
+   } 
+   Serial.println("\nConnected.");
+ }
 
 ``` 
 
@@ -149,7 +131,8 @@ When we reset the esp32, the value decrease automatically as you can see on the 
 ![](thingspeak-image-min.png)
 
 
-## **Exercise Conclusion**
+
+
 
 The aim of the exercise is to use the potentiometer by turning it and changing its values.
 The value will be retrieved in the ThingSpeak graph as we can see in avobe.
