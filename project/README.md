@@ -1,7 +1,7 @@
 
-# Project Title:
+# Project Title : Scale+ 
 
-![Cover GIF](doc/Arduino_LED.gif?raw=true)
+
 
 **Description:**  Please don't forget to describe all parts of your project including 
  - [x] **reading from sensors** 
@@ -21,11 +21,13 @@ bla bla bla bla bla bla bla bla blabla bla blabla bla blabla bla bla  bla bla bl
  [![Example Video of the porject](https://img.youtube.com/vi/ucZl6vQ_8Uo/0.jpg)](https://www.youtube.com/watch?v=ucZl6vQ_8Uo)
 
 # Components
-- 1 x Arduino Uno
-- 1 x BMP 280
-- 1 x Breadboard
-- 
-- 
+- 1 x ESP32
+- 1 x HX711
+- 4 x 50KG Half Bridge Load Cell Body Load Cell Weight Deformation Sensor Resistance
+- Breadboard
+- Wires
+- LCD screen
+
 # Schematic
 ![schema](doc/photo.png?raw=true)
 
