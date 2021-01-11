@@ -21,6 +21,8 @@ Team Members :
  
 [Click here for more information about the project](project) 
 
+![](finalscale.png)
+
 
 
 # Lab Reports
