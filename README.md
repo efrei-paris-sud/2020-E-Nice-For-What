@@ -12,9 +12,9 @@ Team Members :
 
 # Project Name : Scale +
 
-![](scale+.png)
+![](scale+logo.png)
 
-**Scale+** is about determining the weight of people and provide them with daily support. The scale will send data to the IoT platform - Blynk - for future analysis. The software is able to measue the weight of multiple person and will notify people if their weight is increasing too much. 
+**Scale+** is about determining the weight of people and provide them with daily support. The scale will send data to the IoT dashboard - ThingSpeak - for future analysis. The scale is also able to measure the weight of multiple person.
 
 
  **Description** 

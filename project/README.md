@@ -14,13 +14,13 @@ Scale+ is a connected scale that reads the weight using sensors. This scale is c
 First, the user get on the scale, the weight is displayed on the OLED screen. Then, the user select his user id in the serial monitor, wait until the weight is stabilized and the value is sent to the IoT platform. Finally, the platform store the data and display a graph with the historic of the weight.
 
 
-[Team E: Nice For What - Scale+ Report](Report_Scale.pdf) 
+[Team E: Nice For What - Scale+ Report](Report_Scale+.pdf) 
 
-[Team E: Nice For What - Scale+ Presentation](ppt-Scale.pdf)
+[Team E: Nice For What - Scale+ Presentation](ppt-Scale+.pdf)
 
 # Scale+ Video
 
- [![Scale+ Video of the project]](https://youtu.be/EP7MpaAjP2Q)
+ [Scale+ Video of the project](https://youtu.be/EP7MpaAjP2Q)
 
 # Main components
 - 1 x ESP32
