@@ -12,7 +12,7 @@ Team Members :
 
 # Project Name : Scale +
 
-![](scale+logo.png)
+![](logo-scale.png)
 
 **Scale+** is about determining the weight of people and provide them with daily support. The scale will send data to the IoT dashboard - ThingSpeak - for future analysis. The scale is also able to measure the weight of multiple person.
 
@@ -20,6 +20,8 @@ Team Members :
  **Description** 
  
 [Click here for more information about the project](project) 
+
+![](finalscale.png)
 
 
 
