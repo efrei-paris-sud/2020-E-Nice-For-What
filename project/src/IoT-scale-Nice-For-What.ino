@@ -1,3 +1,14 @@
+/*
+ * At first, we worked with Blynk app so we watched this video : 
+ * https://www.youtube.com/watch?v=9fyj5zvEl38&ab_channel=IoTFlair
+ * 
+ * And used this code for reading the weight and to get the HX711.cpp and HX811.h:
+ * https://github.com/iotflair/ESP32-Scale-Blynk/blob/master/ESP32-Scale-Blynk.ino
+ * 
+ * For the Wi-Fi connection we used the code from our Lab4 exercise 3
+ * 
+ */
+
 #include "ThingSpeak.h"
 #include <WiFi.h>
 #include "HX711.h"
